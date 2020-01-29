@@ -11,16 +11,6 @@ def line (array)
 end 
 
 def take_a_number(array, name)
-  if array.size == 0
-    array = array.push(name)
-    array.each_with_index do |n, i|   
-    puts  "Welcome, #{n}. You are number #{i + 1} in line."
-    end 
-  else
-   array = array.push(name)
-    array.each_with_index do |n, i|   
-    puts  "Welcome, #{n}. You are number #{i + 1} in line."
-    end 
-  end
+  
 end
 
