@@ -1,5 +1,5 @@
 def line (array)
-  if array.size == 0
+  if array.length == 0
      puts "The line is currently empty."
   else
     string = String.new
@@ -16,7 +16,7 @@ def take_a_number(array, name)
 end
 
 def now_serving (array)
-  if array == 0 
+  if array.length == 0 
     puts "There is nobody waiting to be served!"
   else
     puts "Currently serving #{array[0]}."
